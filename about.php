@@ -1,5 +1,5 @@
 <?php
-include("pageheader.html");
+include("pageheader.php");
 ?>
 
 <main>

@@ -1,5 +1,5 @@
 
-<?php include("pageheader.html"); ?>
+<?php include("pageheader.php"); ?>
 <div class="main-content">
     <section class="products">
         <div class="product">

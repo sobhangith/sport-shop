@@ -1,4 +1,4 @@
-<?php include("pageheader.html"); ?>
+<?php include("pageheader.php"); ?>
 
 <div class="main-content">
 <section>
