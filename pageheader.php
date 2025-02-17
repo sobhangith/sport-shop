@@ -8,6 +8,7 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>فروشگاه لوازم ورزشی</title>
     <link rel="stylesheet" href="for.css"> 
+    <link rel="stylesheet" href="admin.css">
 </head>
 <body>
     <header>
@@ -18,6 +19,7 @@ session_start();
                 <li><a href="product.php">محصولات</a></li>
                 <li><a href="#">تماس با ما</a></li>
                 <li><a href="about.php">درباره ما</a></li>
+                <li><a href="product_list.php">مدیریت محصولات</a></li>
                 <?php if (isset($_SESSION["login"])){ ?>
                     <li><a href="logout.php">خروج</a></li> 
                 <?php }else{ ?>
